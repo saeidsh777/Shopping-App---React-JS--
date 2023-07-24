@@ -1,13 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 import Shop from "./Components/Shop/Shop";
 import "./App.css";
 
-export default class App extends Component {
-  render() {
-    return (
-      <div>
-        <Shop />
-      </div>
-    );
-  }
+export default function App() {
+  return (
+    <div>
+      <Shop />
+    </div>
+  );
 }
